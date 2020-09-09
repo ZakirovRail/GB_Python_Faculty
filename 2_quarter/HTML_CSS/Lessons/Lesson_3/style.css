@@ -1,0 +1,47 @@
+p {
+    color: blue;
+    border: 2px solid black;
+    /*backface-visibility: inherit;*/
+    /*background-position: 60px 40px;*/
+    /*background-image: url("TON_1.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background: url("TON_1.jpg") no-repeat 60px 40px;*/
+    background-color: aqua;
+    font-size: 18px;
+}
+
+#heading {
+    font-size: 26px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.new_heading{
+    color: blue;
+}
+
+img[alt='ES_2118 chair'] {
+    border: 5px solid green;
+}
+
+/*list*/
+.list{
+    list-style: none;
+}
+
+.list > li{
+    width: 120px;
+    height: 30px;
+    border: 2px solid red;
+}
+
+.list + p {
+    color: green;
+    height: 150px;
+    background: black;
+}
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
