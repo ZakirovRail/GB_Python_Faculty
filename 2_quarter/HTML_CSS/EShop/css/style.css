@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu_links {
+    list-style: none;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 10px;
+    text-decoration: green;
+    border: 2px solid green;
+    color: aqua;
+}
+
+.goods_headers {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_description_text {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 16px;
+}
+
+.goods_characteristics {
+    /*list-style: none;*/
+    text-decoration: none;
+    /*list-style-type: "→";*/
+    list-style-type: square;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.con_input {
+    height: 30px;
+    width: 200px;
+    padding: 1px 5px; /*for text inside the input */
+}
+
+.field_names {
+    /*margin-left: 10px;*/
+    background-color: aliceblue;
+}
+
+.contacts > input[placeholder] {
+    font-size: 14px;
+    color: blue;
+}
+
+.contacts {
+     width: 70px;
+}
