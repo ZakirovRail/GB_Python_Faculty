@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="from" type="text">
+    В инпуте написано: <span></span>
+
+    <!-- Задание.
+    1. Сохраните в переменную ссылку на span, например с помощью querySelector.
+    2. Сохраните в переменную fromEl ссылку на input, например с помощью getElementById.
+    3. Элементу fromEl назначьте обработку события change, у функции обработчика
+    этого события должен быть параметр event.
+    4. Читайте что было написано в input с помощью event.target.value и пишите это
+    значение в span.
+    -->
+
+
+
+<!--    Это Задание Решено -->
+<!--    ВОПРОС - значение введенного текста отображается в <span></span> только после нажатия Enter клавиши. Это правильно?-->
+<!--    или текст должен динамически добавляться?-->
+    <script>
+        'use strict';
+        const span_variable = document.querySelector('span');
+        console.log(span_variable);
+
+        const fromEl = document.getElementById('from');
+        console.log(fromEl);
+
+        fromEl.addEventListener('change', function(event) {
+            const new_value_input = event.target.value;
+            console.log(new_value_input);
+            span_variable.innerText = new_value_input;
+        });
+
+    </script>
+</body>
+</html>
