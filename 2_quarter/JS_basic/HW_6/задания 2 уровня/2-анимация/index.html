@@ -22,8 +22,19 @@
         animate__fadeInLeftBig
     -->
 
-    <script>
 
+
+<!--    Это Задание Решено, дальше уже не решал задания -->
+    <script>
+        'use strict';
+        const btn = document.querySelector('button');
+        const msg = document.querySelector('.message');
+        const display_property = 'display: block;'
+
+        btn.addEventListener('click', function(event) {
+            msg.setAttribute('style', display_property);
+            msg.classList.add('animate__animated', 'animate__fadeInLeftBig');
+        });
 
 
 
