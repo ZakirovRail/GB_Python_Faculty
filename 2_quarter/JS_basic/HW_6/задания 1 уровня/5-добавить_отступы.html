@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="text"><br>
+        <input type="text"><br>
+        <input type="text"><br>
+        <input type="text"><br>
+    </form>
+
+    <!-- 
+        Задание. Сделайте, чтобы у всех инпутов снизу был внешний отступ (margin-bottom).
+        1. Получите все инпуты, например с помощью querySelectorAll
+        2. Переберите полученную коллекцию например с помощью forEach
+            2.1 У функции-обработчика, которая будет передаваться в forEach определите
+            параметр input
+            2.2 Чтобы менять стили обращайтесь к свойству style у параметра input
+    -->
+
+
+<!--    Это Задание Решено -->
+    <script>
+        'use strict';
+        const all_inputs_list = document.querySelectorAll('input');
+        const margin_bottom_style = 'margin-bottom: 40px;'
+        console.log(all_inputs_list);
+        all_inputs_list.forEach(input => {
+            input.setAttribute('style', margin_bottom_style)
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
