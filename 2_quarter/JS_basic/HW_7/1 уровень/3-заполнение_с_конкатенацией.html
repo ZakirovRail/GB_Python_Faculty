@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let totalString = "";
+
+
+
+
+
+
+
+
+
+
+
+<!--    !!!!!!!!!!Это задание НЕ решено - не работает конкатенация: в чем ошибка ???!!!!!!!!!!!!-->
+
+
+
+        /* Задание.
+        Дописывайте в строку totalString с помощью цикла и конкатенации строки,
+        так, чтобы итоговое значение в totalString получилось: слово1слово2слово3
+        */
+        const val_1 = 'слово1';
+        const val_2 = 'слово2';
+        const val_3 = 'слово3';
+        const val_dict = {val_1 : 'слово1', val_2 : 'слово2', val_3 : 'слово3'}
+
+        console.log(typeof totalString); // string
+        console.log(totalString); //<empty string>
+        console.log(typeof val_dict["val_1"]); // string
+        console.log(val_dict["val_1"]); //слово1
+
+        for (const [key,value] of Object.entries(val_dict)){
+            console.log(value)
+            totalString.concat(value)  // здесь не работает конкатенация, почему???
+            console.log(totalString)
+        }
+
+
+
+        // должно вывести:
+        // слово1слово2слово3
+
+    </script>
+</body>
+</html>
