@@ -1,0 +1,121 @@
+.header {
+    background-color: #ccc;
+}
+
+.footer {
+    background-color: #00d021;
+}
+
+.red-text {
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    border: 3px solid #5A98D0;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 50px;
+    box-sizing: border-box; /*помогает не увеличивать размеры блока если добавляем padding*/
+    margin-bottom: 50px;
+}
+
+.header_2 {
+    margin-bottom: 50px;
+}
+
+.float {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #2e353d;
+    float: left;
+
+}
+
+.header_3 {
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.footer_3 {
+    height: 50px;
+    background-color: grey;
+    clear: both;
+}
+
+.menu__list {
+    list-style-type: none;
+    border: 1px solid red;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    line-height: 35px; /*для выравнивания по вертикали но идет вместе с height и равно его значению*/
+}
+.menu__list:first-child {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.menu__list:hover .menu__link {
+    text-decoration: none;
+}
+
+.menu__list:last-child {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.menu_li_new:after {
+    content: 'super_new';
+}
+
+.menu_li:before {
+    content: '* ';
+    color: red;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu_li_2:hover::after {
+    content: '   >>>';
+}
+
+.product {
+    width: 250px;
+    border: 1px solid #000;
+}
+
+.product_new::after {
+    content: 'NEW';
+    text-transform: uppercase;
+    color: red;
+}
+
+.product_img {
+    height: 150px;
+    border: 1px solid;
+    background-color: forestgreen;
+}
+
+.text::first-letter {
+    font-size:24px;
+    color: red;
+
+}
+
+
+
+
+
