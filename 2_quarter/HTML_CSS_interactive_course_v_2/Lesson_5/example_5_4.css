@@ -1,0 +1,14 @@
+.block {
+    height: 350px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.item {
+    background-color: grey;
+    height: 35px;
+    position: sticky;
+    top: 0;
+}
+
+

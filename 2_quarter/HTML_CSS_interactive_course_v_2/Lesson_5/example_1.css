@@ -1,0 +1,11 @@
+.block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    /*display: inline-block; для кнопок лучше использовать*/
+}
+
+.block_1 {
+    display: none;
+    visibility: hidden; /* it is hidden from a user, but exists on the page*/
+}

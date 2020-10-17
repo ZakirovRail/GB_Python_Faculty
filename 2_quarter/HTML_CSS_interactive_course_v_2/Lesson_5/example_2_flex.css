@@ -1,0 +1,23 @@
+.block {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    /*display: inline-block; для кнопок лучше использовать*/
+}
+.content {
+    display: flex;
+    justify-content: flex-start; /* to adjust content to a right side*/
+    /*justify-content: flex-end; /* to adjust content to a right side*/
+    /*justify-content: center; /* to adjust content to the center*/
+    /*justify-content: space-around; /* равномерное распределение элементов по горизонтали*/
+    /*justify-content: space-between; /* равномерное распределение элементов по горизонтали*/
+    height: 200px;
+    background-color: #ccc;
+    align-items: center;
+    /*align-items: stretch; stretch content to the whole height*/
+}
+
+/*.block_1 {*/
+/*    display: none;*/
+/*    visibility: hidden; !* it is hidden from a user, but exists on the page*!*/
+/*}*/
