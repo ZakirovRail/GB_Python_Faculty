@@ -1,0 +1,31 @@
+p {
+    color: #9cfb02 !important;
+}
+
+.heading {
+    color: purple !important;
+}
+
+input[type="text"] {
+    color: red;
+    style: bold;
+    font-style: italic;
+}
+/*либо таким образом*/
+.input {
+    color: red;
+    style: bold;
+    font-style: italic;
+    /*background-color: #9cfb02;*/
+    /*background-image: url();*/
+    /*background-repeat: repeat-x (repeat-y|no-repeat);*/
+    /*background-position: top (bottom|left|right);*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover (contain|100%);*/
+
+
+    border-color: #7a5000;
+    border-width: 2px;
+    border-style: solid !important;
+}
+

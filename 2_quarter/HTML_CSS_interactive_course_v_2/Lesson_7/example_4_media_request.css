@@ -1,0 +1,23 @@
+.header {
+    height: 80px;
+    background-color: #ccc;
+}
+
+.bottom {
+    background-color: darkred;
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width:500px) {
+    .header {
+        background-color: orange;
+        border: 1px solid #000;
+    }
+}
+
+@media (max-width:500px) {
+    .bottom {
+        display: none;
+    }
+}

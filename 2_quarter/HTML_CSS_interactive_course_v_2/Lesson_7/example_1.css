@@ -1,0 +1,10 @@
+.container {
+    max-width: 650px;
+    min-width: 320px; /*в данном случае при уменьшении размера появиться полоса прокрутки и поле заливки будет покрывать не весь текст*/
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 80px;
+    background-color: forestgreen;
+}

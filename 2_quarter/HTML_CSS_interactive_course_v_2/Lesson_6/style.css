@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top {
+    height: 760px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%,
+    rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top_info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.top_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top_heading {
+    width: 510px;
+    font-size: 64px;
+    color: #1F3F68;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    padding-bottom: 31px;
+}
+
+.text_project {
+    width: 70%;
+    margin: 32px auto 64px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    opacity: 1;
+
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.card {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.card_link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+ }
+
+.project {
+
+}
+
+.product_img {
+    width: 100%;
+    position: relative;
+}
+
+.project_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+}
+
+.project_item_margin {
+    margin-right: 32px;
+}
+
+.project_item_text {
+    position: absolute;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    right: auto;
+    left: 32px;
+    top: 32px;
+    text-align: left;
+}
+
+.project_text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    right: 64px;
+    top: 64px;
+}
+
+.top_text {
+    width: 425px;
+}
+
+.heading-contacts {
+
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.heading-mini {
+    margin-top: 51px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+
+}
+
+.footer {
+    background-color: #316099;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    margin-top: 112px;
+}
+
+.footer_top {
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding: 15px 80px;
+    background: #5A98D0;
+    text-decoration: none;
+}
+
+.footer_heading {
+    width: 340px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.text_footer {
+    color: #fff;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.footer_list {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 32px;
+}
+
+.footer_list:first-child::before {
+    content: 'A.';
+    display: block;
+    margin-right: 16px;
+}
+
+
+.footer_copy {
+    margin-top: 64px;
+}
+
+.footer_copy-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: 0.4;
+}
+

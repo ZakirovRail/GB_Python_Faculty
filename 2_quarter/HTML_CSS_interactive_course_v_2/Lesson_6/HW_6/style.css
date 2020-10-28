@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+.top {
+    height: 471px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.back_image {
+
+}
+
+.contact_us {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 162px;
+    left: 567px;
+}
+
+.contact_lorem {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
