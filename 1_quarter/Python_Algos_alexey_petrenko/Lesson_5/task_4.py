@@ -14,8 +14,8 @@ list_1 = [('cat', 1), ('dog', 5), ('cat', 3), ('dog', 2), ('cat', 6), ('dog', 4)
 
 d = defaultdict(list)
 for animal, distance in list_1:
-    d[animal].append(distance)  # defaultdict(<class 'list'>, {'cat': [1, 3, 6, 8], 'dog': [5, 2, 4, 9]})
-print(d)
+    d[animal].append(distance)
+print(d)  # defaultdict(<class 'list'>, {'cat': [1, 3, 6, 8], 'dog': [5, 2, 4, 9]})
 print('='*70)
 
 
