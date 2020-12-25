@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+    var userAnswer = prompt("What you can see with closed eyes?: ");
+    var score = 0;
+    userAnswer = userAnswer.toLowerCase()
+    if (userAnswer == 'dream' || userAnswer == 'sleep') {
+        alert("This is correct");
+        score++;
+    } else
+        alert("You are wrong");
+
+    var userAnswer = prompt("Ths ill is absent on a shore: ");
+    userAnswer = userAnswer.toLowerCase()
+    if (userAnswer == 'see ill') {
+        alert("This is correct");
+        score++;
+    } else
+        alert("You are wrong");
+
+
+    var userAnswer = prompt("Which horse doesn't eat an oats");
+    userAnswer = userAnswer.toLowerCase()
+    if (userAnswer == 'chess') {
+        alert("This is correct");
+        score++;
+    } else
+        alert("You are wrong");
+
+    alert('You guessed ' + score + ' questions')
+</script>

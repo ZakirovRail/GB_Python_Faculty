@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+    var answer = parseInt(Math.random() * 100);
+    var userAnswer = +prompt('Guess a number from 0 to 100: ');
+    var maxTryCount = 10;
+
+    for (var tryCount = 1; tryCount <= maxTryCount; tryCount++) {
+        if (userAnswer == answer) {
+            alert('Congratulations, you guessed!');
+            break;
+        } else if (userAnswer > answer) {
+            alert('You entered too big number');
+        } else if (userAnswer < answer) {
+            alert('You entered too small number');
+        }
+        if (tryCount == maxTryCount){
+            alert('You failed');
+            break;
+        }
+        userAnswer = +prompt("Try again. Enter a number from 0 to 100 \n " +
+            "You have " + (maxTryCount - tryCount) +" attempts");
+    }
+
+
+
+</script>
