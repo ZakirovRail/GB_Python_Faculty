@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    var words = [
+        ["food", "еда"],
+        ["bike", "велосипед"],
+        ["apple", "яблоко"],
+        ["do", "делать"],
+        ["mean", "иметь в виду"],
+    ]
+
+    while (words.length != 0) {
+        var i = parseInt(Math.random() * words.length);
+        var userTranslate = prompt("How is translated the word:" + words[i][0] + "?");
+        if (userTranslate == words[i][1]) {
+            alert("Correct!");
+            words.splice(i, 1);
+        } else {
+            alert("That is wrong. the correct translation is:" + words[i][1]);
+        }
+    }
+
+
+</script>

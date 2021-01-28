@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+    var answer = parseInt(Math.random() * 100);
+    var playerNumber = 1;
+
+    while (true) {
+        var userAnswer = prompt('Guess a number from 0 to 100. \nNow the turn of a player' + playerNumber +
+            '.\n To exit press "q" ');
+        if (userAnswer == 'q')
+            break;
+
+        userAnswer = parseInt(userAnswer);
+
+        if (userAnswer == answer) {
+            alert('Congratulations, you guessed! The winner is ' + playerNumber);
+            break;
+        } else if (userAnswer > answer) {
+            alert('You entered too big number');
+        } else if (userAnswer < answer) {
+            alert('You entered too small number');
+        }
+
+
+        if (playerNumber == 1)
+            playerNumber = 2;
+        else
+            playerNumber = 1;
+    }
+    alert('Correct number is: ' + answer);
+
+
+</script>

@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    // function sayHello(name){
+    //     document.write("Hello, " + name + "<br>");
+    //     document.write("Glad to see you" + name + "<br>");
+    //     alert("Glad to see you" + name);
+    //
+    // }
+    // sayHello("Mike");
+    // sayHello("John");
+
+
+    function askForWords(words) {
+        while (words.length != 0) {
+            var i = parseInt(Math.random() * words.length);
+            var userTranslate = prompt("How is translated the word:" + words[i][0] + "?");
+            if (userTranslate == words[i][1]) {
+                alert("Correct!");
+                words.splice(i, 1);
+            } else {
+                alert("That is wrong. the correct translation is:" + words[i][1]);
+            }
+        }
+    }
+
+    var easyWords = [
+        ["food", "еда"],
+        ["bike", "велосипед"],
+        ["apple", "яблоко"],
+        ["do", "делать"],
+        ["mean", "иметь в виду"],
+    ];
+    askForWords(easyWords);
+
+    alert("Congratulations, lets continue with harder words");
+
+    var hardWords = [
+        ["chainsaw", "бензопила"],
+        ["squirrel", "белка"],
+        ["castle", "щамок"],
+        ["homeland", "родина"],
+        ["sewerage", "канализация"],
+        ["bottom", "дно"],
+        ]
+
+    askForWords(hardWords);
+
+</script>

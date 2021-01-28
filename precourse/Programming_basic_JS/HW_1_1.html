@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script>
+    var euro_rub = 0.01075269;
+    euro_rub = parseFloat(euro_rub);
+
+    var dollar_rub = 0.01428571;
+    dollar_rub = parseFloat(dollar_rub);
+
+    question = prompt('How much rubles you want to convert into Euro and Dollars?: ');
+
+    var euro = question * euro_rub
+    var dollar = question * dollar_rub
+
+    alert("It will be " + euro.toFixed(2) + " euros and " + dollar.toFixed(2) + " dollars");
+
+</script>
